@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desencriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+        
+</head>
+
+<body>
+    <header>
+    <div class="logo"><img src="imagenes/Logo.png" class="imgCandado" alt="imagen-candado"></div>
+    
+    <div class="cabeza-titulo">
+    <h1>Encriptador de código</h1>
+        </div>
+    </header>
+    <main>
+    <ul class="principal">
+        <li class="ingresar">
+            <textarea name="" id="mensaje" cols="40%" rows="10%" placeholder="Ingrese su mensaje" onfocus="this.placeholder=''"
+            onblur="this.placeholder='Ingrese mensaje'"></textarea>
+        </li>
+        <li class="salida">
+            <output id="resultado" class="pantallaTexto">
+                <img class="imgmuestra" src="imagenes/notfound.png" alt="resultado">
+                           
+            </output>
+        </li>
+        <li class="botonLista">
+            <button id="encriptar">Encriptar</button>
+            <button id="desencriptar">Desencriptar</button> 
+            <button id="copiar">Copiar</button>
+        </li>
+    </ul>
+       
+            </main>
+    <script src="script.js"></script>
+</body>
+</html>
